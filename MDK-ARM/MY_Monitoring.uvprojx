@@ -340,7 +340,7 @@
               <MiscControls>--no-multibyte-chars</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/STM32F1xx_HAL_Driver/Inc;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../BSP/Monitoring;../BSP/Protocol;../BSP/Voice;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../MDK-ARM</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/STM32F1xx_HAL_Driver/Inc;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../BSP/Monitoring;../BSP/Protocol;../BSP/Voice;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../MDK-ARM;../BSP/SYS</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1018,16 +1018,6 @@
               <FilePath>..\BSP\Protocol\MY_CAN.h</FilePath>
             </File>
             <File>
-              <FileName>MY_bluetooth.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\Protocol\MY_bluetooth.c</FilePath>
-            </File>
-            <File>
-              <FileName>MY_bluetooth.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BSP\Protocol\MY_bluetooth.h</FilePath>
-            </File>
-            <File>
               <FileName>Main_Task.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Main_Task.c</FilePath>
@@ -1056,6 +1046,26 @@
               <FileName>DHT11.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\Monitoring\DHT11.c</FilePath>
+            </File>
+            <File>
+              <FileName>MY_Usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\SYS\MY_Usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>MY_Usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\SYS\MY_Usart.h</FilePath>
+            </File>
+            <File>
+              <FileName>MY_Voice.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Voice\MY_Voice.c</FilePath>
+            </File>
+            <File>
+              <FileName>MY_Voice.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\Voice\MY_Voice.h</FilePath>
             </File>
           </Files>
         </Group>

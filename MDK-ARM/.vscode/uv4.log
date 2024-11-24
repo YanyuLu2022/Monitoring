@@ -1,4 +1,2 @@
-*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\ruangjian\keil5\ARM\ARMCC\Bin'
-Build target 'MY_Monitoring'
-"MY_Monitoring\MY_Monitoring.axf" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:01
+Load "MY_Monitoring\\MY_Monitoring.axf" 
+Erase Done.Programming Done.Verify OK.Flash Load finished at 01:02:49

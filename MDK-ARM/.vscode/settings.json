@@ -11,6 +11,14 @@
         "my_can.h": "c",
         "stm32f1xx_hal.h": "c",
         "my_adc.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "dht11.h": "c",
+        "my_usart.h": "c",
+        "gpio.h": "c",
+        "stdlib.h": "c",
+        "my_voice.h": "c",
+        "stdio.h": "c",
+        "usart.h": "c",
+        "queue.h": "c"
     }
 }

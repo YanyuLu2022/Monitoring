@@ -1,7 +1,7 @@
 Dependencies for Project 'MY_Monitoring', Target 'MY_Monitoring': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (startup_stm32f103xb.s)(0x673E1403)(--cpu Cortex-M3 -g --apcs=interwork -I ../Core/Inc-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o my_monitoring\startup_stm32f103xb.o --depend my_monitoring\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x673ED885)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\main.o --omf_browse my_monitoring\main.crf --depend my_monitoring\main.d)
+F (startup_stm32f103xb.s)(0x67435813)(--cpu Cortex-M3 -g --apcs=interwork -I ../Core/Inc-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o my_monitoring\startup_stm32f103xb.o --depend my_monitoring\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x6740765F)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\main.o --omf_browse my_monitoring\main.crf --depend my_monitoring\main.d)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
@@ -36,7 +36,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -44,9 +44,9 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
 I (../Core/Inc/adc.h)(0x673DAC89)
 I (../Core/Inc/can.h)(0x6735E30E)
-I (../Core/Inc/usart.h)(0x6735E30F)
+I (../Core/Inc/usart.h)(0x674075A5)
 I (../Core/Inc/gpio.h)(0x67359EB3)
-F (../Core/Src/gpio.c)(0x673E13FF)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\gpio.o --omf_browse my_monitoring\gpio.crf --depend my_monitoring\gpio.d)
+F (../Core/Src/gpio.c)(0x673E13FF)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\gpio.o --omf_browse my_monitoring\gpio.crf --depend my_monitoring\gpio.d)
 I (../Core/Inc/gpio.h)(0x67359EB3)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
@@ -79,11 +79,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Core/Src/freertos.c)(0x67378167)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\freertos.o --omf_browse my_monitoring\freertos.crf --depend my_monitoring\freertos.d)
+F (../Core/Src/freertos.c)(0x67378167)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\freertos.o --omf_browse my_monitoring\freertos.crf --depend my_monitoring\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -125,7 +125,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CE
 I (../MDK-ARM/Main_Task.h)(0x6737817F)
 I (../Core/Inc/gpio.h)(0x67359EB3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
-F (../Core/Src/adc.c)(0x673DDC21)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\adc.o --omf_browse my_monitoring\adc.crf --depend my_monitoring\adc.d)
+F (../Core/Src/adc.c)(0x673DDC21)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\adc.o --omf_browse my_monitoring\adc.crf --depend my_monitoring\adc.d)
 I (../Core/Inc/adc.h)(0x673DAC89)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
@@ -158,7 +158,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Core/Src/can.c)(0x673D9672)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\can.o --omf_browse my_monitoring\can.crf --depend my_monitoring\can.d)
+F (../Core/Src/can.c)(0x673D9672)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\can.o --omf_browse my_monitoring\can.crf --depend my_monitoring\can.d)
 I (../Core/Inc/can.h)(0x6735E30E)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
@@ -191,8 +191,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Core/Src/usart.c)(0x6735E30E)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\usart.o --omf_browse my_monitoring\usart.crf --depend my_monitoring\usart.d)
-I (../Core/Inc/usart.h)(0x6735E30F)
+F (../Core/Src/usart.c)(0x67435810)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\usart.o --omf_browse my_monitoring\usart.crf --depend my_monitoring\usart.d)
+I (../Core/Inc/usart.h)(0x674075A5)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
@@ -224,7 +224,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Core/Src/stm32f1xx_it.c)(0x6735E30F)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_it.o --omf_browse my_monitoring\stm32f1xx_it.crf --depend my_monitoring\stm32f1xx_it.d)
+F (../Core/Src/stm32f1xx_it.c)(0x674075A5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_it.o --omf_browse my_monitoring\stm32f1xx_it.crf --depend my_monitoring\stm32f1xx_it.d)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
@@ -256,8 +256,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-I (../Core/Inc/stm32f1xx_it.h)(0x6735E30F)
-F (../Core/Src/stm32f1xx_hal_msp.c)(0x67359EB5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_msp.o --omf_browse my_monitoring\stm32f1xx_hal_msp.crf --depend my_monitoring\stm32f1xx_hal_msp.d)
+I (../Core/Inc/stm32f1xx_it.h)(0x674075A6)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x67359EB5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_msp.o --omf_browse my_monitoring\stm32f1xx_hal_msp.crf --depend my_monitoring\stm32f1xx_hal_msp.d)
 I (../Core/Inc/main.h)(0x67359EB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
@@ -289,7 +289,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x67359EB5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_timebase_tim.o --omf_browse my_monitoring\stm32f1xx_hal_timebase_tim.crf --depend my_monitoring\stm32f1xx_hal_timebase_tim.d)
+F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x67359EB5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_timebase_tim.o --omf_browse my_monitoring\stm32f1xx_hal_timebase_tim.crf --depend my_monitoring\stm32f1xx_hal_timebase_tim.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -320,7 +320,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_gpio_ex.o --omf_browse my_monitoring\stm32f1xx_hal_gpio_ex.crf --depend my_monitoring\stm32f1xx_hal_gpio_ex.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_gpio_ex.o --omf_browse my_monitoring\stm32f1xx_hal_gpio_ex.crf --depend my_monitoring\stm32f1xx_hal_gpio_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -351,7 +351,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_adc.o --omf_browse my_monitoring\stm32f1xx_hal_adc.crf --depend my_monitoring\stm32f1xx_hal_adc.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_adc.o --omf_browse my_monitoring\stm32f1xx_hal_adc.crf --depend my_monitoring\stm32f1xx_hal_adc.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -382,7 +382,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_adc_ex.o --omf_browse my_monitoring\stm32f1xx_hal_adc_ex.crf --depend my_monitoring\stm32f1xx_hal_adc_ex.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_adc_ex.o --omf_browse my_monitoring\stm32f1xx_hal_adc_ex.crf --depend my_monitoring\stm32f1xx_hal_adc_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -413,7 +413,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal.o --omf_browse my_monitoring\stm32f1xx_hal.crf --depend my_monitoring\stm32f1xx_hal.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal.o --omf_browse my_monitoring\stm32f1xx_hal.crf --depend my_monitoring\stm32f1xx_hal.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -444,7 +444,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_rcc.o --omf_browse my_monitoring\stm32f1xx_hal_rcc.crf --depend my_monitoring\stm32f1xx_hal_rcc.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_rcc.o --omf_browse my_monitoring\stm32f1xx_hal_rcc.crf --depend my_monitoring\stm32f1xx_hal_rcc.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -475,7 +475,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_rcc_ex.o --omf_browse my_monitoring\stm32f1xx_hal_rcc_ex.crf --depend my_monitoring\stm32f1xx_hal_rcc_ex.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_rcc_ex.o --omf_browse my_monitoring\stm32f1xx_hal_rcc_ex.crf --depend my_monitoring\stm32f1xx_hal_rcc_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -506,7 +506,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_gpio.o --omf_browse my_monitoring\stm32f1xx_hal_gpio.crf --depend my_monitoring\stm32f1xx_hal_gpio.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_gpio.o --omf_browse my_monitoring\stm32f1xx_hal_gpio.crf --depend my_monitoring\stm32f1xx_hal_gpio.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -537,7 +537,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_dma.o --omf_browse my_monitoring\stm32f1xx_hal_dma.crf --depend my_monitoring\stm32f1xx_hal_dma.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_dma.o --omf_browse my_monitoring\stm32f1xx_hal_dma.crf --depend my_monitoring\stm32f1xx_hal_dma.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -568,7 +568,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_cortex.o --omf_browse my_monitoring\stm32f1xx_hal_cortex.crf --depend my_monitoring\stm32f1xx_hal_cortex.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_cortex.o --omf_browse my_monitoring\stm32f1xx_hal_cortex.crf --depend my_monitoring\stm32f1xx_hal_cortex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -599,7 +599,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_pwr.o --omf_browse my_monitoring\stm32f1xx_hal_pwr.crf --depend my_monitoring\stm32f1xx_hal_pwr.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_pwr.o --omf_browse my_monitoring\stm32f1xx_hal_pwr.crf --depend my_monitoring\stm32f1xx_hal_pwr.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -630,7 +630,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_flash.o --omf_browse my_monitoring\stm32f1xx_hal_flash.crf --depend my_monitoring\stm32f1xx_hal_flash.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_flash.o --omf_browse my_monitoring\stm32f1xx_hal_flash.crf --depend my_monitoring\stm32f1xx_hal_flash.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -661,7 +661,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_flash_ex.o --omf_browse my_monitoring\stm32f1xx_hal_flash_ex.crf --depend my_monitoring\stm32f1xx_hal_flash_ex.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_flash_ex.o --omf_browse my_monitoring\stm32f1xx_hal_flash_ex.crf --depend my_monitoring\stm32f1xx_hal_flash_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -692,7 +692,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_exti.o --omf_browse my_monitoring\stm32f1xx_hal_exti.crf --depend my_monitoring\stm32f1xx_hal_exti.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_exti.o --omf_browse my_monitoring\stm32f1xx_hal_exti.crf --depend my_monitoring\stm32f1xx_hal_exti.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -723,7 +723,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_can.o --omf_browse my_monitoring\stm32f1xx_hal_can.crf --depend my_monitoring\stm32f1xx_hal_can.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_can.o --omf_browse my_monitoring\stm32f1xx_hal_can.crf --depend my_monitoring\stm32f1xx_hal_can.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -754,7 +754,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_tim.o --omf_browse my_monitoring\stm32f1xx_hal_tim.crf --depend my_monitoring\stm32f1xx_hal_tim.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_tim.o --omf_browse my_monitoring\stm32f1xx_hal_tim.crf --depend my_monitoring\stm32f1xx_hal_tim.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -785,7 +785,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_tim_ex.o --omf_browse my_monitoring\stm32f1xx_hal_tim_ex.crf --depend my_monitoring\stm32f1xx_hal_tim_ex.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_tim_ex.o --omf_browse my_monitoring\stm32f1xx_hal_tim_ex.crf --depend my_monitoring\stm32f1xx_hal_tim_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -816,7 +816,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_uart.o --omf_browse my_monitoring\stm32f1xx_hal_uart.crf --depend my_monitoring\stm32f1xx_hal_uart.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stm32f1xx_hal_uart.o --omf_browse my_monitoring\stm32f1xx_hal_uart.crf --depend my_monitoring\stm32f1xx_hal_uart.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
@@ -847,7 +847,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Core/Src/system_stm32f1xx.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\system_stm32f1xx.o --omf_browse my_monitoring\system_stm32f1xx.crf --depend my_monitoring\system_stm32f1xx.d)
+F (../Core/Src/system_stm32f1xx.c)(0x672CEB7C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\system_stm32f1xx.o --omf_browse my_monitoring\system_stm32f1xx.crf --depend my_monitoring\system_stm32f1xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x672CEB7C)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x672CEB7C)
 I (../Drivers/CMSIS/Include/core_cm3.h)(0x672CEB61)
@@ -878,11 +878,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\croutine.o --omf_browse my_monitoring\croutine.crf --depend my_monitoring\croutine.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\croutine.o --omf_browse my_monitoring\croutine.crf --depend my_monitoring\croutine.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -891,12 +891,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\event_groups.o --omf_browse my_monitoring\event_groups.crf --depend my_monitoring\event_groups.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\event_groups.o --omf_browse my_monitoring\event_groups.crf --depend my_monitoring\event_groups.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -906,25 +906,25 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\list.o --omf_browse my_monitoring\list.crf --depend my_monitoring\list.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\list.o --omf_browse my_monitoring\list.crf --depend my_monitoring\list.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\queue.o --omf_browse my_monitoring\queue.crf --depend my_monitoring\queue.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\queue.o --omf_browse my_monitoring\queue.crf --depend my_monitoring\queue.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -933,12 +933,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stream_buffer.o --omf_browse my_monitoring\stream_buffer.crf --depend my_monitoring\stream_buffer.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\stream_buffer.o --omf_browse my_monitoring\stream_buffer.crf --depend my_monitoring\stream_buffer.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -947,13 +947,13 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\tasks.o --omf_browse my_monitoring\tasks.crf --depend my_monitoring\tasks.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\tasks.o --omf_browse my_monitoring\tasks.crf --depend my_monitoring\tasks.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -963,12 +963,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\timers.o --omf_browse my_monitoring\timers.crf --depend my_monitoring\timers.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\timers.o --omf_browse my_monitoring\timers.crf --depend my_monitoring\timers.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -978,7 +978,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\cmsis_os2.o --omf_browse my_monitoring\cmsis_os2.crf --depend my_monitoring\cmsis_os2.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\cmsis_os2.o --omf_browse my_monitoring\cmsis_os2.crf --depend my_monitoring\cmsis_os2.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -986,7 +986,7 @@ I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672CEB61)
 I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672CEB61)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -998,12 +998,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672CEB62
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\heap_4.o --omf_browse my_monitoring\heap_4.crf --depend my_monitoring\heap_4.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\heap_4.o --omf_browse my_monitoring\heap_4.crf --depend my_monitoring\heap_4.d)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -1011,11 +1011,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
-F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\port.o --omf_browse my_monitoring\port.crf --depend my_monitoring\port.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x672CEB62)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\port.o --omf_browse my_monitoring\port.crf --depend my_monitoring\port.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -1023,11 +1023,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
-F (..\BSP\Protocol\MY_CAN.c)(0x673DE5D8)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_can.o --omf_browse my_monitoring\my_can.crf --depend my_monitoring\my_can.d)
+F (..\BSP\Protocol\MY_CAN.c)(0x673DE5D8)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_can.o --omf_browse my_monitoring\my_can.crf --depend my_monitoring\my_can.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -1074,66 +1074,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
 I (..\BSP\Protocol\MY_CAN.h)(0x673DE593)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 F (..\BSP\Protocol\MY_CAN.h)(0x673DE593)()
-F (..\BSP\Protocol\MY_bluetooth.c)(0x673862BC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_bluetooth.o --omf_browse my_monitoring\my_bluetooth.crf --depend my_monitoring\my_bluetooth.d)
-I (D:\ruangjian\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
-I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CEB62)
-I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672CEB62)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
-I (D:\ruangjian\keil5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
-I (..\BSP\Protocol\MY_bluetooth.h)(0x67378004)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x672CEB7C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x672CEB7C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x672CEB7C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x672CEB61)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672CEB61)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672CEB61)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672CEB61)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
-I (../Core/Inc/gpio.h)(0x67359EB3)
-I (../Core/Inc/main.h)(0x67359EB6)
-I (../Core/Inc/usart.h)(0x6735E30F)
-F (..\BSP\Protocol\MY_bluetooth.h)(0x67378004)()
-F (.\Main_Task.c)(0x673F3B06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\main_task.o --omf_browse my_monitoring\main_task.crf --depend my_monitoring\main_task.d)
+F (.\Main_Task.c)(0x67435C1F)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\main_task.o --omf_browse my_monitoring\main_task.crf --depend my_monitoring\main_task.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -1182,17 +1127,17 @@ I (Main_Task.h)(0x6737817F)
 I (../Core/Inc/gpio.h)(0x67359EB3)
 I (../BSP/Protocol/My_can.h)(0x673DE593)
 I (../Core/Inc/can.h)(0x6735E30E)
-I (../BSP/Protocol/My_bluetooth.h)(0x67378004)
-I (../Core/Inc/usart.h)(0x6735E30F)
 I (../BSP/Monitoring/My_ADC.h)(0x673DEC43)
 I (../BSP/Monitoring/DHT11.h)(0x673F3AC1)
+I (../BSP/Voice/MY_Voice.h)(0x67435A91)
+I (../Core/Inc/usart.h)(0x674075A5)
 F (.\Main_Task.h)(0x6737817F)()
-F (..\BSP\Monitoring\My_ADC.c)(0x673E129A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_adc.o --omf_browse my_monitoring\my_adc.crf --depend my_monitoring\my_adc.d)
+F (..\BSP\Monitoring\My_ADC.c)(0x673E129A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_adc.o --omf_browse my_monitoring\my_adc.crf --depend my_monitoring\my_adc.d)
 I (..\BSP\Monitoring\my_adc.h)(0x673DEC43)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -1240,12 +1185,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CE
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 F (..\BSP\Monitoring\My_ADC.h)(0x673DEC43)()
 F (..\BSP\Monitoring\DHT11.h)(0x673F3AC1)()
-F (..\BSP\Monitoring\DHT11.c)(0x673F3ABB)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\dht11.o --omf_browse my_monitoring\dht11.crf --depend my_monitoring\dht11.d)
+F (..\BSP\Monitoring\DHT11.c)(0x673F3ABB)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\dht11.o --omf_browse my_monitoring\dht11.crf --depend my_monitoring\dht11.d)
 I (..\BSP\Monitoring\DHT11.h)(0x673F3AC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x67385FF6)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
@@ -1290,3 +1235,114 @@ I (../Core/Inc/main.h)(0x67359EB6)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x672CEB62)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CEB62)
 I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\BSP\SYS\MY_Usart.c)(0x67435041)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_usart.o --omf_browse my_monitoring\my_usart.crf --depend my_monitoring\my_usart.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CEB62)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
+I (..\BSP\SYS\MY_usart.h)(0x6742DA6C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x672CEB7C)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x672CEB7C)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x672CEB7C)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x672CEB61)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672CEB61)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672CEB61)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672CEB61)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
+I (../Core/Inc/gpio.h)(0x67359EB3)
+I (../Core/Inc/main.h)(0x67359EB6)
+I (../Core/Inc/usart.h)(0x674075A5)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\BSP\SYS\MY_Usart.h)(0x6742DA6C)()
+F (..\BSP\Voice\MY_Voice.c)(0x67435A8E)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/Monitoring -I ../BSP/Protocol -I ../BSP/Voice -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../MDK-ARM -I ../BSP/SYS --no-multibyte-chars-I.\RTE\_MY_Monitoring-ID:\my_file\wulianwanggc\keil_Project\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\my_file\wulianwanggc\keil_Project\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o my_monitoring\my_voice.o --omf_browse my_monitoring\my_voice.crf --depend my_monitoring\my_voice.d)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\BSP\Voice\My_Voice.h)(0x67435A91)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x672CEB7C)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x673DAC8A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x672CEB7C)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x672CEB7C)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x672CEB7C)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x672CEB61)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672CEB61)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672CEB61)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672CEB61)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672CEB7C)
+I (D:\ruangjian\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x672CEB7C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x672CEB7C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672CEB62)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67435810)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672CEB62)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672CEB62)
+I (../Core/Inc/usart.h)(0x674075A5)
+I (../Core/Inc/main.h)(0x67359EB6)
+I (../BSP/SYS/My_Usart.h)(0x6742DA6C)
+I (../Core/Inc/gpio.h)(0x67359EB3)
+F (..\BSP\Voice\MY_Voice.h)(0x67435A91)()

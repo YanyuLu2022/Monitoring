@@ -21,24 +21,34 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
 Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-D:\my_file\my_github\MY_Monitoring\MDK-ARM\MY_Monitoring.uvprojx
-Project File Date:  11/21/2024
+d:\my_file\my_github\MY_Monitoring\MDK-ARM\MY_Monitoring.uvprojx
+Project File Date:  11/25/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\ruangjian\keil5\ARM\ARMCC\Bin'
 Build target 'MY_Monitoring'
 compiling Main_Task.c...
-Main_Task.c(16): warning:  #177-D: variable "lig"  was declared but never referenced
-  static uint8_t lig = 0;
-Main_Task.c(32): warning:  #550-D: variable "CAN_TxQueue"  was set but never used
-  static QueueHandle_t CAN_TxQueue;	   // CAN_Tx队列句柄
-Main_Task.c(39): warning:  #177-D: variable "TxData"  was declared but never referenced
-  static CANTx_Queue_Data TxData;//发送句�?
-Main_Task.c: 3 warnings, 0 errors
+Main_Task.c(15): warning:  #550-D: variable "T"  was set but never used
+  static uint8_t T = 0, H = 0;
+Main_Task.c(15): warning:  #550-D: variable "H"  was set but never used
+  static uint8_t T = 0, H = 0;
+Main_Task.c(17): warning:  #550-D: variable "air"  was set but never used
+  static float air, light;
+Main_Task.c(17): warning:  #550-D: variable "light"  was set but never used
+  static float air, light;
+Main_Task.c: 4 warnings, 0 errors
+compiling MY_Voice.c...
+..\BSP\Voice\MY_Voice.c(61): warning:  #940-D: missing return statement at end of non-void function "Music_Get" 
+  }
+..\BSP\Voice\MY_Voice.c(72): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if (vol < 0x00)
+..\BSP\Voice\MY_Voice.c(87): warning:  #940-D: missing return statement at end of non-void function "Volume_Get" 
+  }
+..\BSP\Voice\MY_Voice.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=25560 RO-data=948 RW-data=260 ZI-data=12940  
+Program Size: Code=20360 RO-data=376 RW-data=268 ZI-data=13644  
 FromELF: creating hex file...
-"MY_Monitoring\MY_Monitoring.axf" - 0 Error(s), 3 Warning(s).
+"MY_Monitoring\MY_Monitoring.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -62,7 +72,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS/Core/Include/tz_context.h
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

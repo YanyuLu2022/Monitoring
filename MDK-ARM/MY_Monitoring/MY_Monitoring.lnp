@@ -38,10 +38,11 @@
 "my_monitoring\heap_4.o"
 "my_monitoring\port.o"
 "my_monitoring\my_can.o"
-"my_monitoring\my_bluetooth.o"
 "my_monitoring\main_task.o"
 "my_monitoring\my_adc.o"
 "my_monitoring\dht11.o"
+"my_monitoring\my_usart.o"
+"my_monitoring\my_voice.o"
 --strict --scatter "MY_Monitoring\MY_Monitoring.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

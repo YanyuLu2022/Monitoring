@@ -19,6 +19,7 @@
         "my_voice.h": "c",
         "stdio.h": "c",
         "usart.h": "c",
-        "queue.h": "c"
+        "queue.h": "c",
+        "my_bluetooth.h": "c"
     }
 }

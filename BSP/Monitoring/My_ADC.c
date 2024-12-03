@@ -26,15 +26,6 @@ void ADC_GETDATA_Thread(void *argument)
 	{
 
         ADC_ChannelConfTypeDef _adc;
-        _adc.Channel=ADC_CHANNEL_6;
-        _adc.Rank=1;
-        _adc.SamplingTime=ADC_SAMPLETIME_239CYCLES_5;
-        HAL_ADC_ConfigChannel(&hadc1,&_adc);
-        HAL_ADC_Start(&hadc1);
-        HAL_ADC_PollForConversion(&hadc1,10);
-        vTaskDelay(5);
-        Get_ADCData.air	= (float)(HAL_ADC_GetValue(&hadc1) *3.3) / 4096;
-
         _adc.Channel=ADC_CHANNEL_7;
         _adc.Rank=1;
         _adc.SamplingTime=ADC_SAMPLETIME_239CYCLES_5;
@@ -42,7 +33,16 @@ void ADC_GETDATA_Thread(void *argument)
         HAL_ADC_Start(&hadc1);
         HAL_ADC_PollForConversion(&hadc1,10);
         vTaskDelay(5);
-        Get_ADCData.light	= (float)(HAL_ADC_GetValue(&hadc1) *3.3) / 4096;
+        Get_ADCData.air	= (float)(HAL_ADC_GetValue(&hadc1) *100) / 4096;
+
+        _adc.Channel=ADC_CHANNEL_6;
+        _adc.Rank=1;
+        _adc.SamplingTime=ADC_SAMPLETIME_239CYCLES_5;
+        HAL_ADC_ConfigChannel(&hadc1,&_adc);
+        HAL_ADC_Start(&hadc1);
+        HAL_ADC_PollForConversion(&hadc1,10);
+        vTaskDelay(5);
+        Get_ADCData.light	= (float)(HAL_ADC_GetValue(&hadc1) *100) / 4096;
 		xQueueSend(READC_Queue, &Get_ADCData, 0); /* code */	
 	}
 }

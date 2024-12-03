@@ -16,13 +16,13 @@
 #define RX2_Counter_Max 12
 typedef struct 
 {
-    char rx_str[RX1_Counter_Max];
-
+    uint8_t rx_str[RX1_Counter_Max];
+    int num;
 }Uart1_Struct;
 typedef struct 
 {
-    char rx_str[RX2_Counter_Max];
-
+    uint8_t rx_str[RX2_Counter_Max];
+    int num;
 }Uart2_Struct;
 
 void My_Uart1_Init(void);

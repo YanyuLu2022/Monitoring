@@ -5,6 +5,7 @@
 "my_monitoring\freertos.o"
 "my_monitoring\adc.o"
 "my_monitoring\can.o"
+"my_monitoring\tim.o"
 "my_monitoring\usart.o"
 "my_monitoring\stm32f1xx_it.o"
 "my_monitoring\stm32f1xx_hal_msp.o"
@@ -43,6 +44,7 @@
 "my_monitoring\dht11.o"
 "my_monitoring\my_usart.o"
 "my_monitoring\my_voice.o"
+"my_monitoring\my_bluetooth.o"
 --strict --scatter "MY_Monitoring\MY_Monitoring.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

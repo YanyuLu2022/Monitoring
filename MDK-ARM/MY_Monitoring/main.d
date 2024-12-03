@@ -42,5 +42,6 @@ my_monitoring\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/A
 my_monitoring\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 my_monitoring\main.o: ../Core/Inc/adc.h
 my_monitoring\main.o: ../Core/Inc/can.h
+my_monitoring\main.o: ../Core/Inc/tim.h
 my_monitoring\main.o: ../Core/Inc/usart.h
 my_monitoring\main.o: ../Core/Inc/gpio.h

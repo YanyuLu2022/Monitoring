@@ -9,10 +9,11 @@
 #include "queue.h"
 #include "usart.h"
 //队列长度
-#define MP3QueueLenght 10
-
-
+#define MP3QueueLenght 1
 #define MP3_Counter_Max 5
+
+#define SU10TQueueLenght 1
+#define SU10T_Counter_Max 5
 /**
  * volume : 
  * 1小声 
@@ -38,8 +39,18 @@ typedef struct
 	uint8_t voice;
 	
 }MP3_Struct;//队列结构体
+
+typedef struct
+{
+    uint8_t instruct;
+	
+}SU10T_Struct;//队列结构体
+
 void MP3_Thread_Start(StaticTask_t *PThread, void *Parameters);
+void SU10T_Thread_Start(StaticTask_t *PThread, void *Parameters);
+
 void Voice_Init(void);
 QueueHandle_t ReMP3_QueueStruct(void); // 返回队列句柄
+QueueHandle_t ReSU10T_QueueStruct(void); // 返回队列句柄
 #endif // MY_Voice_H
 

@@ -56,3 +56,4 @@ my_monitoring\main_task.o: ../BSP/Monitoring/My_ADC.h
 my_monitoring\main_task.o: ../BSP/Monitoring/DHT11.h
 my_monitoring\main_task.o: ../BSP/Voice/MY_Voice.h
 my_monitoring\main_task.o: ../Core/Inc/usart.h
+my_monitoring\main_task.o: ../BSP/Protocol/My_bluetooth.h

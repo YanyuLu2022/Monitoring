@@ -53,3 +53,4 @@ my_monitoring\my_bluetooth.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_
 my_monitoring\my_bluetooth.o: ../Core/Inc/gpio.h
 my_monitoring\my_bluetooth.o: ../Core/Inc/main.h
 my_monitoring\my_bluetooth.o: ../Core/Inc/usart.h
+my_monitoring\my_bluetooth.o: ../BSP/SYS/My_Usart.h

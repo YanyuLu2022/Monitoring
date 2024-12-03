@@ -3,7 +3,7 @@
 #include "task.h"         // ARM.FreeRTOS::RTOS:Core
 #include "event_groups.h" // ARM.FreeRTOS::RTOS:Event Groups
 #include "semphr.h"       // ARM.FreeRTOS::RTOS:Core
-
+#include "tim.h"
 
 #include "MY_usart.h"
 
@@ -33,7 +33,7 @@ static Uart2_Struct Uart2Rx_Buffer; // 接收缓冲区
 uint16_t Uart2Rx_Counter = 0;            // 下标
 uint16_t Uart2Rx_Counter_Up = 0;         // 上一次下标
 uint8_t Uart2Rx_char = {0};              // 接收字符
-static TimerHandle_t RTUartRx_Timer = NULL;
+static uint16_t RTUartRx_Timer = 0;
 
 BaseType_t xHigherPriorityTaskWoken = pdFALSE;
 
@@ -54,14 +54,15 @@ void Uart2Rx_Buffer_Close(void)
     memset(Uart2Rx_Buffer.rx_str, 0, sizeof(Uart2Rx_Buffer.rx_str));
 }
 
-void MyATimerCallback(TimerHandle_t xTimer)
+void GameSoundTimer_Func(void)
 {
 
     if (Uart1_Queue != NULL)
     {
         if (Uart1Rx_Counter_Up == Uart1Rx_Counter && Uart1Rx_Counter != 0)
         {
-            xQueueSend(Uart1_Queue, &Uart1Rx_Buffer, 0);
+            Uart1Rx_Buffer.num = Uart1Rx_Counter;
+            xQueueSendToBackFromISR(Uart1_Queue, &Uart1Rx_Buffer, 0);
             Uart1Rx_Buffer_Close();
         }
         Uart1Rx_Counter_Up = Uart1Rx_Counter;
@@ -70,7 +71,8 @@ void MyATimerCallback(TimerHandle_t xTimer)
     {
         if (Uart2Rx_Counter_Up == Uart2Rx_Counter && Uart2Rx_Counter != 0)
         {
-            xQueueSend(Uart2_Queue, &Uart2Rx_Buffer, 0);
+             Uart2Rx_Buffer.num = Uart2Rx_Counter;
+            xQueueSendToBackFromISR(Uart2_Queue, &Uart2Rx_Buffer, 0);
             Uart2Rx_Buffer_Close();
         }
         Uart2Rx_Counter_Up = Uart2Rx_Counter;
@@ -86,30 +88,21 @@ void My_Uart1_Init(void)
     vTaskDelay(10);
     if (NULL == RTUartRx_Timer)
     {
-        RTUartRx_Timer = xTimerCreate("Usart_Time",
-                                            10,
-                                            pdTRUE,
-                                            NULL,
-                                            MyATimerCallback
-                                            );
-        xTimerStart(RTUartRx_Timer,100);
+        RTUartRx_Timer = 1;
+		HAL_TIM_Base_Start_IT(&htim2);
     }
 }
 void My_Uart2_Init(void)
 {
+	
     Uart2_Queue = xQueueCreate(Uart2QueueLenght, sizeof(Uart2_Struct));
     USART2_TxSemaphore = xSemaphoreCreateBinary();
     xSemaphoreGive(USART2_TxSemaphore);
     HAL_UART_Receive_IT(&huart2, &Uart2Rx_char, 1);    
     if (NULL == RTUartRx_Timer)
     {
-        RTUartRx_Timer = xTimerCreate("Usart_Time",
-                                            10,
-                                            pdTRUE,
-                                            NULL,
-                                            MyATimerCallback
-                                            );
-       xTimerStart(RTUartRx_Timer,100);                                            
+        RTUartRx_Timer = 1;
+		HAL_TIM_Base_Start_IT(&htim2);
     }
 }
 /**
